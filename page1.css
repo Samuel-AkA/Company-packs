@@ -1,4 +1,5 @@
 *{
+    margin-left: 0;
 }
 body{
     background-color: #F0F8FF;
@@ -118,14 +119,170 @@ p{
     width: 92em;
 
 }
-.blupage{
+.bluepage{
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(1 ,1fr);
+    position: relative;
+    top: 15em;
+    left: 0;
+    background-color: rgb(8, 152, 255);
+    height: 51em;
+}
+.cash > p{
+    bottom: 3em;
+}
+.O{
+    background-color: #F0F8FF ;
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+    height: 37em;
+    border-radius: 1em;
+    width: 17em;
+    padding: 12px;
+    position: relative;
+    top: 2em;
+}
+.own{
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fivemarkups{
+    width: 17em;
+}
+.markup{
+    display: flex;
+    gap: 16px;
+}
+.money{
+    display: flex;
+}
+.money > p{
+      font-size: 1.3em;
+}
+.Them{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    left: 7em;
+    width: 80em;
+
+}
+.cash{
+    position: relative;
+    left: 5em;
 }
 .Clouds{ 
     width: 27em;
 }
-.section{
+
+.Section{
+    position: relative;
+    top: 19em;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+.costumeritself{
+    text-align: center;
+}
+.momentum{
+    width: 1em;
+}
+.fourbox{
+    position: relative;
+    top: 3em;
+    left: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90em;
+}
+.fournames{
+    width: 30em;
+    background-color: white;
+    position: relative;
+    top: 2em;
+    padding: 10px;
+    height: 15em;
+    box-shadow: 6px 6px 6px rgb(198, 196, 196);
+}
+.Storm{
+    position: relative;
+    bottom: 1em;
+}
+.U{
+    position: relative;
+    top: 5em;
+}
+.E{
+    position: relative;
+    color: rgb(150, 166, 200);
+    bottom: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.I{
+    position: relative;
+    top: 3.5em;
+    left: 39em;
+    padding-right: 38px;
+    padding-left: 38px;
+    text-align: center;
+    border-color: white; 
+     background-color: rgb(8, 152, 255);
+     color: white;
+     font-weight: 800;
+}
+.P{
+    position: relative;
+    left: 3em;
+}
+.M{
+    left: 5em;
+    position: relative;
+}
+.Service{
+    background-color: rgb(8, 152, 255);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    top: 30em;
+}
+.worrying >h1 {
+    color: white;
+    font-size: 1.7em ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.worrying > p{
+    font-size: 16px;
+}
+.Sec2{
+    position: relative;
+    top: 37em;
+}
+.menu-and-rest{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.menu-links-overview{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+}
+.redes{
+    position: relative;
+    left: 15em;
+    width: 15em;
+}
+.menu-links-overview{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.F{
+    position: relative;
+    width: 2em;
+    height: 3em;
+}
+.log{
+    position: relative;
+    left: 3em;
+    top: 1.3em;
 }
