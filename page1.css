@@ -54,6 +54,29 @@ a:link{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.black{
+    background-color: black;
+    border-radius: 1em;
+    position: relative;
+    bottom: 12px;
+    right: 12px;
+    width: 18.5em;
+    height: 8em;
+}
+.black >h1{
+    color: white;
+    position: relative;
+    left: 12px;
+}
+.text > h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.markup >h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.black >p{
+    text-align: center;
+}
 .but{
     padding: 12px 20px;
   border-radius: 5px;
